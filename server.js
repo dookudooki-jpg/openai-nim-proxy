@@ -20,20 +20,20 @@ const SHOW_REASONING = false; // Set to true to show reasoning with <think> tags
 // 🔥 THINKING MODE TOGGLE - Enables thinking for specific models that support it
 const ENABLE_THINKING_MODE = false; // Set to true to enable chat_template_kwargs thinking parameter
 
-// ✅ Stable, roleplay-friendly NVIDIA NIM models
+// ✅ DeepSeek R1 Distill (Qwen) – stable, efficient, NIM-safe
 const MODEL_MAPPING = {
-  // Janitor / OpenAI style names
-  'gpt-3.5-turbo': 'meta/llama-3.1-8b-instruct',
-  'gpt-4': 'meta/llama-3.1-70b-instruct',
-  'gpt-4-turbo': 'meta/llama-3.1-70b-instruct',
-  'gpt-4o': 'meta/llama-3.1-405b-instruct',
+  // OpenAI-style aliases (Janitor AI)
+  'gpt-3.5-turbo': 'deepseek-ai/deepseek-r1-distill-qwen-7b',
+  'gpt-4': 'deepseek-ai/deepseek-r1-distill-qwen-32b',
+  'gpt-4-turbo': 'deepseek-ai/deepseek-r1-distill-qwen-32b',
+  'gpt-4o': 'deepseek-ai/deepseek-r1-distill-qwen-32b',
 
-  // Claude-style aliases (good RP depth)
-  'claude-3-opus': 'meta/llama-3.1-405b-instruct',
-  'claude-3-sonnet': 'meta/llama-3.1-70b-instruct',
+  // Claude-style aliases
+  'claude-3-opus': 'deepseek-ai/deepseek-r1-distill-qwen-32b',
+  'claude-3-sonnet': 'deepseek-ai/deepseek-r1-distill-qwen-32b',
 
   // Gemini-style alias
-  'gemini-pro': 'meta/llama-3.1-70b-instruct'
+  'gemini-pro': 'deepseek-ai/deepseek-r1-distill-qwen-32b'
 };
 
 // Health check endpoint
