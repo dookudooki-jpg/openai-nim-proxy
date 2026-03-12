@@ -32,7 +32,8 @@ const MODEL_MAPPING = {
   'claude-3-sonnet': 'openai/gpt-oss-20b',
   'gemini-pro': 'qwen/qwen3-next-80b-a3b-thinking', 
   'glm5': 'z-ai/glm5',
-  'glm4': 'z-ai/glm4.7'
+  'glm4': 'z-ai/glm4.7',
+  'deep': 'deepseek-ai/deepseek-v3.1-terminus',
 };
 
 // Health check endpoint
