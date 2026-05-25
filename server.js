@@ -34,6 +34,7 @@ const MODEL_MAPPING = {
   'glm5': 'z-ai/glm5.1',
   'glm4': 'z-ai/glm4.7',
   'deep': 'deepseek-ai/deepseek-v4-pro',
+  'deepf': 'deepseek-ai/deepseek-v4-flash',
 };
 
 // Health check endpoint
