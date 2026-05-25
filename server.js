@@ -35,6 +35,7 @@ const MODEL_MAPPING = {
   'glm4': 'z-ai/glm4.7',
   'deep': 'deepseek-ai/deepseek-v4-pro',
   'deepf': 'deepseek-ai/deepseek-v4-flash',
+  'kimi': 'moonshotai/kimi-k2.6,
 };
 
 // Health check endpoint
